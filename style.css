@@ -1,0 +1,51 @@
+/* common section start */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+/* common section end */
+
+/* nav section start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 45px;
+    color: #181818;
+    font-weight: 800;
+}
+
+.btn-primary {
+    width: 150px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+li a {
+    color: #474747;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+/* nav section end */
