@@ -186,13 +186,26 @@ main {
     color: #474747;
     font-size: 25px;
     font-weight: 700;
+    margin: 0;
 }
 
 .resume-item-institute {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0; 
+}   
+.resume-item-description{
+    margin-top: 20px;
+    margin-bottom: 0;
 }
-
+.resume-container hr{
+    margin: 30px 0;
+}
+#resume-btn{
+    margin: 50px 0;
+    text-align: center;
+}
 /* Resume section end */
 /* main section end */
