@@ -60,8 +60,6 @@ nav li {
 nav a {
     color: #474747;
     text-decoration: none;
-    /* margin-right: 50px;
-    font-size: 20px; */
 }
 
 /* nav section end */
@@ -69,9 +67,9 @@ nav a {
 /* banner section start */
 .header {
     background-color: #FFF8F3;
-    background-image: url("images/header_bg.png");
+    background-image: url('images/developer.png'), url("images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: left, bottom right;
 }
 
 .banner {
@@ -83,7 +81,6 @@ nav a {
 
 .banner-img {
     width: 500px;
-    /* height: 676px; */
 }
 
 .banner-content {
@@ -116,21 +113,18 @@ nav a {
 }
 
 /* banner section end */
-/* main section start */
+
+/* about section start */
 main section {
     margin-top: 130px;
 }
 
-/* main section end */
-/* about section start */
 .about {
     padding: 130px;
     background-color: #FFF8F3;
     border-radius: 10px;
     margin: 130px 0;
 }
-
-
 
 main {
     max-width: 1140px;
@@ -194,18 +188,59 @@ main {
     font-size: 20px;
     font-weight: 600;
     margin-top: 10px;
-    margin-bottom: 0; 
-}   
-.resume-item-description{
+    margin-bottom: 0;
+}
+
+.resume-item-description {
     margin-top: 20px;
     margin-bottom: 0;
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 30px 0;
 }
-#resume-btn{
-    margin: 50px 0;
+
+#resume-btn {
+    margin: 50px 0 0;
     text-align: center;
 }
+
 /* Resume section end */
-/* main section end */
+
+/* footer section start */
+.footer-column-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer-description {
+    color: #757575;
+    width: 562px;
+    font-size: 18px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 117px;
+    padding: 130px 100px;
+    background-color: #FFF8F3;
+}
+
+footer {
+    margin-top: 130px;
+}
+
+input,
+textarea {
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    background-color: #FFFFFF;
+    color: #757575;
+    padding: 18px 60px;
+    border: none;
+    width: 280px;
+}
+
+/* footer section end */
